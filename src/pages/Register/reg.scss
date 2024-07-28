@@ -1,0 +1,31 @@
+.sign-up{
+    &__form{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+        justify-items: center;
+        align-items: center;
+        width: 450px;
+        background-color: #fff;
+        border:1px solid #ddd;
+        border-radius: 10px;
+
+    }
+    &__title{
+        text-transform: uppercase;
+        color: steelblue;
+    }
+}
+.input{
+    padding: 0 10px;
+    height: 40px;
+    width: 70%;
+    margin-top: 20px;
+    &__btn{
+        background-color: #009578;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 20px;
+    }
+}
