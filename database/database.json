@@ -1,0 +1,2035 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "fullName": "Nguyen Van A",
+            "email": "nguyenvana@example.com",
+            "password": "password123",
+            "token": "aBcDeFgHiJkLmNoPqRsT"
+        },
+        {
+            "id": 2,
+            "fullName": "Tran Thi B",
+            "email": "tranthib@example.com",
+            "password": "password456",
+            "token": "uVwXyZaBcDeFgHiJkLmN"
+        },
+        {
+            "id": 3,
+            "fullName": "Le Van C",
+            "email": "levanc@example.com",
+            "password": "password789",
+            "token": "OpQrStUvWxYzAbCdEfGh"
+        },
+        {
+            "id": 4,
+            "fullName": "Pham Thi D",
+            "email": "phamthid@example.com",
+            "password": "password012",
+            "token": "IjKlMnOpQrStUvWxYzAb"
+        },
+        {
+            "id": 5,
+            "fullName": "Hoang Van E",
+            "email": "hoangvane@example.com",
+            "password": "password345",
+            "token": "CdEfGhIjKlMnOpQrStUv"
+        },
+        {
+            "id": 6,
+            "fullName": "Vu Thi F",
+            "email": "vuthif@example.com",
+            "password": "password678",
+            "token": "WxYzAbCdEfGhIjKlMnOp"
+        },
+        {
+            "id": 7,
+            "fullName": "Do Van G",
+            "email": "dovang@example.com",
+            "password": "password901",
+            "token": "QrStUvWxYzAbCdEfGhIj"
+        },
+        {
+            "id": 8,
+            "fullName": "Bui Thi H",
+            "email": "buithih@example.com",
+            "password": "password234",
+            "token": "KlMnOpQrStUvWxYzAbCd"
+        },
+        {
+            "id": 9,
+            "fullName": "Tran Van I",
+            "email": "tranvani@example.com",
+            "password": "password567",
+            "token": "EfGhIjKlMnOpQrStUvWx"
+        },
+        {
+            "id": 10,
+            "fullName": "Nguyen Thi J",
+            "email": "nguyenthij@example.com",
+            "password": "password890",
+            "token": "YzAbCdEfGhIjKlMnOpQr"
+        }
+    ],
+    "topics":[
+        {
+            "id" : 1,
+            "name" : "HTML5"
+        },
+        {
+            "id" : 2,
+            "name" : "CSS"
+        },
+        {
+            "id" : 3,
+            "name" : "JavaScript"
+        }, {
+            "id" : 4,
+            "name" : "ReactJS"
+        }
+
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "name": "HTML5",
+            "questions": [
+                {
+                    "id": 1,
+                    "topicId": 1,
+                    "question": "HTML là viết tắt của ...?",
+                    "answers": [
+                        "Hyperlink and Text Markup Language",
+                        "Home Tool Markup Language",
+                        "Hyper text Markup Language"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 2,
+                    "topicId": 1,
+                    "question": "What does a <!DOCTYPE html> declaration do?",
+                    "answers": [
+                        "Specifies the version of HTML",
+                        "Defines the document type and version",
+                        "Includes metadata for the document"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 3,
+                    "topicId": 1,
+                    "question": "Which HTML element is used for the largest heading?",
+                    "answers": [
+                        "<heading>",
+                        "<h1>",
+                        "<h6>"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 4,
+                    "topicId": 1,
+                    "question": "What is the correct HTML element for inserting a line break?",
+                    "answers": [
+                        "<break>",
+                        "<lb>",
+                        "<br>"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 5,
+                    "topicId": 1,
+                    "question": "How can you make a numbered list?",
+                    "answers": [
+                        "<list>",
+                        "<ol>",
+                        "<ul>"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 6,
+                    "topicId": 1,
+                    "question": "What is the correct HTML element for inserting an image?",
+                    "answers": [
+                        "<img>",
+                        "<image>",
+                        "<pic>"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 7,
+                    "topicId": 1,
+                    "question": "Which HTML attribute is used to define inline styles?",
+                    "answers": [
+                        "class",
+                        "style",
+                        "font"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 8,
+                    "topicId": 1,
+                    "question": "Which HTML element is used to specify a footer for a document or section?",
+                    "answers": [
+                        "<bottom>",
+                        "<footer>",
+                        "<foot>"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 9,
+                    "topicId": 1,
+                    "question": "What is the correct HTML element for playing video files?",
+                    "answers": [
+                        "<media>",
+                        "<video>",
+                        "<movie>"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 10,
+                    "topicId": 1,
+                    "question": "Which element is used to define important text?",
+                    "answers": [
+                        "<b>",
+                        "<important>",
+                        "<strong>"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 11,
+                    "topicId": 1,
+                    "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+                    "answers": [
+                        "title",
+                        "alt",
+                        "src"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 12,
+                    "topicId": 1,
+                    "question": "What does the <a> HTML element define?",
+                    "answers": [
+                        "An anchor",
+                        "A link",
+                        "An attribute"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 13,
+                    "topicId": 1,
+                    "question": "How do you create an unordered list in HTML?",
+                    "answers": [
+                        "<ol>",
+                        "<ul>",
+                        "<list>"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 14,
+                    "topicId": 1,
+                    "question": "Which HTML element is used to specify a header for a document or section?",
+                    "answers": [
+                        "<header>",
+                        "<head>",
+                        "<top>"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 15,
+                    "topicId": 1,
+                    "question": "What is the correct syntax for creating a hyperlink in HTML?",
+                    "answers": [
+                        "<a href='url'>link text</a>",
+                        "<link url='link'>link text</link>",
+                        "<a url='link'>link text</a>"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 16,
+                    "topicId": 1,
+                    "question": "Which HTML element defines navigation links?",
+                    "answers": [
+                        "<navigate>",
+                        "<nav>",
+                        "<navigation>"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 17,
+                    "topicId": 1,
+                    "question": "What is the purpose of the <meta> tag in HTML?",
+                    "answers": [
+                        "To include metadata",
+                        "To create links",
+                        "To define styles"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 18,
+                    "topicId": 1,
+                    "question": "How do you create a table in HTML?",
+                    "answers": [
+                        "<table>",
+                        "<tbl>",
+                        "<t>"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 19,
+                    "topicId": 1,
+                    "question": "Which HTML element is used to define a list item?",
+                    "answers": [
+                        "<item>",
+                        "<li>",
+                        "<list>"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 20,
+                    "topicId": 1,
+                    "question": "Which HTML attribute is used to define a unique identifier for an element?",
+                    "answers": [
+                        "id",
+                        "class",
+                        "name"
+                    ],
+                    "correctAnswer": 0
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "CSS",
+            "questions": [
+                {
+                    "id": 1,
+                    "topicId": 2,
+                    "question": "CSS là viết tắt của ...?",
+                    "answers": [
+                        "Creative Style Sheets",
+                        "Cascading Style Sheets",
+                        "Computer Style Sheets"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 2,
+                    "topicId": 2,
+                    "question": "Which CSS property is used to change the background color?",
+                    "answers": [
+                        "bgcolor",
+                        "color",
+                        "background-color"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 3,
+                    "topicId": 2,
+                    "question": "How do you add a comment in a CSS file?",
+                    "answers": [
+                        "/* this is a comment */",
+                        "// this is a comment",
+                        "<!-- this is a comment -->"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 4,
+                    "topicId": 2,
+                    "question": "Which property is used to change the font of an element?",
+                    "answers": [
+                        "font-family",
+                        "font-style",
+                        "font-weight"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 5,
+                    "topicId": 2,
+                    "question": "Which CSS property controls the text size?",
+                    "answers": [
+                        "text-size",
+                        "font-size",
+                        "size"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 6,
+                    "topicId": 2,
+                    "question": "How do you select an element with id 'demo'?",
+                    "answers": [
+                        ".demo",
+                        "*demo",
+                        "#demo"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 7,
+                    "topicId": 2,
+                    "question": "How do you select elements with class name 'test'?",
+                    "answers": [
+                        ".test",
+                        "#test",
+                        "*test"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 8,
+                    "topicId": 2,
+                    "question": "Which property is used to change the left margin of an element?",
+                    "answers": [
+                        "margin-left",
+                        "padding-left",
+                        "indent"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 9,
+                    "topicId": 2,
+                    "question": "How do you make the text bold?",
+                    "answers": [
+                        "font-style: bold;",
+                        "font-weight: bold;",
+                        "font-bold: true;"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 10,
+                    "topicId": 2,
+                    "question": "Which property is used to change the text color?",
+                    "answers": [
+                        "color",
+                        "font-color",
+                        "text-color"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 11,
+                    "topicId": 2,
+                    "question": "How do you make each word in a text start with a capital letter?",
+                    "answers": [
+                        "text-transform: capitalize;",
+                        "text-style: capitalize;",
+                        "text-variant: capitalize;"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 12,
+                    "topicId": 2,
+                    "question": "Which CSS property is used to change the text alignment?",
+                    "answers": [
+                        "text-align",
+                        "text-style",
+                        "text-position"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 13,
+                    "topicId": 2,
+                    "question": "Which property is used to change the space between lines of text?",
+                    "answers": [
+                        "line-height",
+                        "text-spacing",
+                        "letter-spacing"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 14,
+                    "topicId": 2,
+                    "question": "Which CSS property is used to change the border color?",
+                    "answers": [
+                        "border-color",
+                        "border-style",
+                        "border"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 15,
+                    "topicId": 2,
+                    "question": "How do you select elements with attribute name 'data-value'?",
+                    "answers": [
+                        "[data-value]",
+                        ".data-value",
+                        "#data-value"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 16,
+                    "topicId": 2,
+                    "question": "Which property is used to create space between the content and the border of an element?",
+                    "answers": [
+                        "margin",
+                        "padding",
+                        "border-spacing"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 17,
+                    "topicId": 2,
+                    "question": "How do you make a list with bullet points?",
+                    "answers": [
+                        "list-style-type: circle;",
+                        "list-style-type: square;",
+                        "list-style-type: disc;"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 18,
+                    "topicId": 2,
+                    "question": "Which property is used to change the width of an element?",
+                    "answers": [
+                        "width",
+                        "element-width",
+                        "size"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 19,
+                    "topicId": 2,
+                    "question": "How do you make the text italic?",
+                    "answers": [
+                        "font-style: italic;",
+                        "font-variant: italic;",
+                        "text-style: italic;"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 20,
+                    "topicId": 2,
+                    "question": "Which CSS property is used to change the bottom margin of an element?",
+                    "answers": [
+                        "margin-bottom",
+                        "padding-bottom",
+                        "bottom-spacing"
+                    ],
+                    "correctAnswer": 0
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "JavaScript",
+            "questions": [
+                {
+                    "id": 1,
+                    "topicId": 3,
+                    "question": "JavaScript là một ...?",
+                    "answers": [
+                        "ngôn ngữ lập trình",
+                        "ngôn ngữ đánh dấu",
+                        "ngôn ngữ kiểu tĩnh"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 2,
+                    "topicId": 3,
+                    "question": "Which company developed JavaScript?",
+                    "answers": [
+                        "Netscape",
+                        "Microsoft",
+                        "Sun Microsystems"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 3,
+                    "topicId": 3,
+                    "question": "Which symbol is used for comments in JavaScript?",
+                    "answers": [
+                        "//",
+                        "/*",
+                        "#"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 4,
+                    "topicId": 3,
+                    "question": "How do you create a function in JavaScript?",
+                    "answers": [
+                        "function = myFunction()",
+                        "function myFunction()",
+                        "function:myFunction()"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 5,
+                    "topicId": 3,
+                    "question": "How do you call a function named 'myFunction'?",
+                    "answers": [
+                        "call myFunction()",
+                        "myFunction()",
+                        "call function myFunction"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 6,
+                    "topicId": 3,
+                    "question": "How do you write an 'if' statement in JavaScript?",
+                    "answers": [
+                        "if (i == 5)",
+                        "if i = 5 then",
+                        "if i == 5"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 7,
+                    "topicId": 3,
+                    "question": "How does a 'for' loop start?",
+                    "answers": [
+                        "for i = 1 to 5",
+                        "for (i = 0; i <= 5; i++)",
+                        "for (i <= 5; i++)"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 8,
+                    "topicId": 3,
+                    "question": "How can you add a comment in a JavaScript?",
+                    "answers": [
+                        "//This is a comment",
+                        "<!--This is a comment-->",
+                        "'This is a comment"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 9,
+                    "topicId": 3,
+                    "question": "What is the correct way to write a JavaScript array?",
+                    "answers": [
+                        "var colors = (1:'red', 2:'green', 3:'blue')",
+                        "var colors = 'red', 'green', 'blue'",
+                        "var colors = ['red', 'green', 'blue']"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 10,
+                    "topicId": 3,
+                    "question": "How do you round the number 7.25 to the nearest integer?",
+                    "answers": [
+                        "Math.rnd(7.25)",
+                        "Math.round(7.25)",
+                        "rnd(7.25)"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 11,
+                    "topicId": 3,
+                    "question": "How do you find the number with the highest value of x and y?",
+                    "answers": [
+                        "Math.max(x, y)",
+                        "Math.ceil(x, y)",
+                        "top(x, y)"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 12,
+                    "topicId": 3,
+                    "question": "Which event occurs when the user clicks on an HTML element?",
+                    "answers": [
+                        "onmouseclick",
+                        "onchange",
+                        "onclick"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 13,
+                    "topicId": 3,
+                    "question": "How do you declare a JavaScript variable?",
+                    "answers": [
+                        "var carName;",
+                        "v carName;",
+                        "variable carName;"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 14,
+                    "topicId": 3,
+                    "question": "Which operator is used to assign a value to a variable?",
+                    "answers": [
+                        "=",
+                        "*",
+                        "-"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 15,
+                    "topicId": 3,
+                    "question": "What will the following code return: Boolean(10 > 9)",
+                    "answers": [
+                        "false",
+                        "NaN",
+                        "true"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 16,
+                    "topicId": 3,
+                    "question": "What is the correct JavaScript syntax to change the content of the HTML element below?\n<p id='demo'>This is a demonstration.</p>",
+                    "answers": [
+                        "document.getElementById('demo').innerHTML = 'Hello World!';",
+                        "document.getElement('p').innerHTML = 'Hello World!';",
+                        "document.getElementByName('p').innerHTML = 'Hello World!';"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 17,
+                    "topicId": 3,
+                    "question": "How do you create a Date object in JavaScript?",
+                    "answers": [
+                        "var d = new Date();",
+                        "var d = Date();",
+                        "var d = new Date(2021, 5, 1);"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 18,
+                    "topicId": 3,
+                    "question": "How do you create an object in JavaScript?",
+                    "answers": [
+                        "var obj = {};",
+                        "var obj = new Object();",
+                        "both"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 19,
+                    "topicId": 3,
+                    "question": "How do you access the first element of an array?",
+                    "answers": [
+                        "array[0]",
+                        "array[1]",
+                        "array.first()"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 20,
+                    "topicId": 3,
+                    "question": "How do you check if a variable is an array?",
+                    "answers": [
+                        "Array.isArray(var)",
+                        "var.isArray()",
+                        "isArray(var)"
+                    ],
+                    "correctAnswer": 0
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "ReactJS",
+            "questions": [
+                {
+                    "id": 1,
+                    "topicId": 4,
+                    "question": "What is ReactJS primarily used for?",
+                    "answers": [
+                        "Building server-side applications",
+                        "Building user interfaces",
+                        "Managing databases"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 2,
+                    "topicId": 4,
+                    "question": "What is JSX in React?",
+                    "answers": [
+                        "A JavaScript extension syntax",
+                        "A templating engine",
+                        "A CSS preprocessor"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 3,
+                    "topicId": 4,
+                    "question": "Which method in React is used to render HTML to the web page?",
+                    "answers": [
+                        "ReactDOM.start()",
+                        "React.render()",
+                        "ReactDOM.render()"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 4,
+                    "topicId": 4,
+                    "question": "What are props in React?",
+                    "answers": [
+                        "Arguments passed into React components",
+                        "Special properties of React components",
+                        "Both"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 5,
+                    "topicId": 4,
+                    "question": "How do you create a React component?",
+                    "answers": [
+                        "class MyComponent extends React.Component {}",
+                        "function MyComponent() {}",
+                        "Both"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 6,
+                    "topicId": 4,
+                    "question": "What is the use of the 'key' prop in React?",
+                    "answers": [
+                        "To give an element a unique identifier",
+                        "To set the initial state of a component",
+                        "To bind an event to a component"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 7,
+                    "topicId": 4,
+                    "question": "What is state in React?",
+                    "answers": [
+                        "A set of immutable values",
+                        "A built-in object for managing data",
+                        "Both"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 8,
+                    "topicId": 4,
+                    "question": "How do you update the state of a React component?",
+                    "answers": [
+                        "this.state = { value: 'new' }",
+                        "this.setState({ value: 'new' })",
+                        "Both"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 9,
+                    "topicId": 4,
+                    "question": "What is a higher-order component (HOC) in React?",
+                    "answers": [
+                        "A function that returns another function",
+                        "A function that takes a component and returns a new component",
+                        "A method in the React library"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 10,
+                    "topicId": 4,
+                    "question": "What is the purpose of component lifecycle methods in React?",
+                    "answers": [
+                        "To manage the component's data",
+                        "To perform actions at specific points in a component's life",
+                        "To handle user interactions"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 11,
+                    "topicId": 4,
+                    "question": "How do you bind methods in a React component?",
+                    "answers": [
+                        "this.method = this.method.bind(this)",
+                        "this.method = this.method.bind(this, args)",
+                        "Both"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 12,
+                    "topicId": 4,
+                    "question": "What is the virtual DOM in React?",
+                    "answers": [
+                        "A copy of the actual DOM",
+                        "A representation of the actual DOM",
+                        "A template engine for creating the DOM"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 13,
+                    "topicId": 4,
+                    "question": "How do you handle events in React?",
+                    "answers": [
+                        "Using the 'on' prefix followed by the event name",
+                        "Using the 'handle' prefix followed by the event name",
+                        "Using the 'react-' prefix followed by the event name"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 14,
+                    "topicId": 4,
+                    "question": "What is the context API in React?",
+                    "answers": [
+                        "A way to pass data through the component tree",
+                        "A method to manage component state",
+                        "A built-in router for React applications"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 15,
+                    "topicId": 4,
+                    "question": "How do you create a ref in React?",
+                    "answers": [
+                        "React.createRef()",
+                        "React.createReference()",
+                        "React.useRef()"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 16,
+                    "topicId": 4,
+                    "question": "What is the purpose of React hooks?",
+                    "answers": [
+                        "To use state and other React features in functional components",
+                        "To manage component lifecycle",
+                        "To optimize component rendering"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 17,
+                    "topicId": 4,
+                    "question": "Which hook is used to manage state in functional components?",
+                    "answers": [
+                        "useEffect",
+                        "useState",
+                        "useContext"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "id": 18,
+                    "topicId": 4,
+                    "question": "Which hook is used for side effects in functional components?",
+                    "answers": [
+                        "useEffect",
+                        "useMemo",
+                        "useState"
+                    ],
+                    "correctAnswer": 0
+                },
+                {
+                    "id": 19,
+                    "topicId": 4,
+                    "question": "How do you perform conditional rendering in React?",
+                    "answers": [
+                        "Using if statements",
+                        "Using ternary operators",
+                        "Both"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "id": 20,
+                    "topicId": 4,
+                    "question": "What is the purpose of the useMemo hook in React?",
+                    "answers": [
+                        "To optimize performance by memoizing expensive calculations",
+                        "To manage component state",
+                        "To handle side effects"
+                    ],
+                    "correctAnswer": 0
+                }
+            ]
+        }
+    ],
+    "answers": [
+        {
+            "id": 1,
+            "userId": 5,
+            "topicId": 1,
+            "answers": [
+                {
+                    "questionId": 1,
+                    "answer": 1
+                },
+                {
+                    "questionId": 2,
+                    "answer": 2
+                },
+                {
+                    "questionId": 3,
+                    "answer": 0
+                },
+                {
+                    "questionId": 4,
+                    "answer": 3
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "userId": 6,
+            "topicId": 1,
+            "answers": [
+                {
+                    "questionId": 1,
+                    "answer": 2
+                },
+                {
+                    "questionId": 2,
+                    "answer": 1
+                },
+                {
+                    "questionId": 3,
+                    "answer": 0
+                },
+                {
+                    "questionId": 4,
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "userId": 7,
+            "topicId": 2,
+            "answers": [
+                {
+                    "questionId": 5,
+                    "answer": 1
+                },
+                {
+                    "questionId": 6,
+                    "answer": 2
+                },
+                {
+                    "questionId": 7,
+                    "answer": 0
+                },
+                {
+                    "questionId": 8,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "userId": 8,
+            "topicId": 2,
+            "answers": [
+                {
+                    "questionId": 9,
+                    "answer": 0
+                },
+                {
+                    "questionId": 10,
+                    "answer": 2
+                },
+                {
+                    "questionId": 11,
+                    "answer": 1
+                },
+                {
+                    "questionId": 12,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "userId": 9,
+            "topicId": 3,
+            "answers": [
+                {
+                    "questionId": 13,
+                    "answer": 2
+                },
+                {
+                    "questionId": 14,
+                    "answer": 0
+                },
+                {
+                    "questionId": 15,
+                    "answer": 1
+                },
+                {
+                    "questionId": 16,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "userId": 10,
+            "topicId": 3,
+            "answers": [
+                {
+                    "questionId": 17,
+                    "answer": 0
+                },
+                {
+                    "questionId": 18,
+                    "answer": 1
+                },
+                {
+                    "questionId": 19,
+                    "answer": 2
+                },
+                {
+                    "questionId": 20,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "userId": 11,
+            "topicId": 4,
+            "answers": [
+                {
+                    "questionId": 21,
+                    "answer": 1
+                },
+                {
+                    "questionId": 22,
+                    "answer": 2
+                },
+                {
+                    "questionId": 23,
+                    "answer": 0
+                },
+                {
+                    "questionId": 24,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "userId": 12,
+            "topicId": 4,
+            "answers": [
+                {
+                    "questionId": 25,
+                    "answer": 0
+                },
+                {
+                    "questionId": 26,
+                    "answer": 1
+                },
+                {
+                    "questionId": 27,
+                    "answer": 0
+                },
+                {
+                    "questionId": 28,
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "userId": 13,
+            "topicId": 1,
+            "answers": [
+                {
+                    "questionId": 1,
+                    "answer": 1
+                },
+                {
+                    "questionId": 2,
+                    "answer": 0
+                },
+                {
+                    "questionId": 3,
+                    "answer": 2
+                },
+                {
+                    "questionId": 4,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "userId": 14,
+            "topicId": 1,
+            "answers": [
+                {
+                    "questionId": 5,
+                    "answer": 0
+                },
+                {
+                    "questionId": 6,
+                    "answer": 1
+                },
+                {
+                    "questionId": 7,
+                    "answer": 0
+                },
+                {
+                    "questionId": 8,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "userId": 15,
+            "topicId": 2,
+            "answers": [
+                {
+                    "questionId": 9,
+                    "answer": 2
+                },
+                {
+                    "questionId": 10,
+                    "answer": 0
+                },
+                {
+                    "questionId": 11,
+                    "answer": 1
+                },
+                {
+                    "questionId": 12,
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "userId": 16,
+            "topicId": 2,
+            "answers": [
+                {
+                    "questionId": 13,
+                    "answer": 0
+                },
+                {
+                    "questionId": 14,
+                    "answer": 1
+                },
+                {
+                    "questionId": 15,
+                    "answer": 2
+                },
+                {
+                    "questionId": 16,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "userId": 17,
+            "topicId": 3,
+            "answers": [
+                {
+                    "questionId": 17,
+                    "answer": 1
+                },
+                {
+                    "questionId": 18,
+                    "answer": 0
+                },
+                {
+                    "questionId": 19,
+                    "answer": 1
+                },
+                {
+                    "questionId": 20,
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "userId": 18,
+            "topicId": 3,
+            "answers": [
+                {
+                    "questionId": 21,
+                    "answer": 1
+                },
+                {
+                    "questionId": 22,
+                    "answer": 2
+                },
+                {
+                    "questionId": 23,
+                    "answer": 0
+                },
+                {
+                    "questionId": 24,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "userId": 19,
+            "topicId": 4,
+            "answers": [
+                {
+                    "questionId": 25,
+                    "answer": 0
+                },
+                {
+                    "questionId": 26,
+                    "answer": 1
+                },
+                {
+                    "questionId": 27,
+                    "answer": 0
+                },
+                {
+                    "questionId": 28,
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "userId": 20,
+            "topicId": 4,
+            "answers": [
+                {
+                    "questionId": 29,
+                    "answer": 1
+                },
+                {
+                    "questionId": 30,
+                    "answer": 0
+                },
+                {
+                    "questionId": 31,
+                    "answer": 2
+                },
+                {
+                    "questionId": 32,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "userId": 21,
+            "topicId": 1,
+            "answers": [
+                {
+                    "questionId": 1,
+                    "answer": 0
+                },
+                {
+                    "questionId": 2,
+                    "answer": 1
+                },
+                {
+                    "questionId": 3,
+                    "answer": 2
+                },
+                {
+                    "questionId": 4,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "userId": 22,
+            "topicId": 1,
+            "answers": [
+                {
+                    "questionId": 5,
+                    "answer": 1
+                },
+                {
+                    "questionId": 6,
+                    "answer": 0
+                },
+                {
+                    "questionId": 7,
+                    "answer": 2
+                },
+                {
+                    "questionId": 8,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "userId": 23,
+            "topicId": 2,
+            "answers": [
+                {
+                    "questionId": 9,
+                    "answer": 0
+                },
+                {
+                    "questionId": 10,
+                    "answer": 2
+                },
+                {
+                    "questionId": 11,
+                    "answer": 1
+                },
+                {
+                    "questionId": 12,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "userId": 24,
+            "topicId": 2,
+            "answers": [
+                {
+                    "questionId": 13,
+                    "answer": 2
+                },
+                {
+                    "questionId": 14,
+                    "answer": 1
+                },
+                {
+                    "questionId": 15,
+                    "answer": 0
+                },
+                {
+                    "questionId": 16,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "userId": 25,
+            "topicId": 3,
+            "answers": [
+                {
+                    "questionId": 17,
+                    "answer": 2
+                },
+                {
+                    "questionId": 18,
+                    "answer": 0
+                },
+                {
+                    "questionId": 19,
+                    "answer": 1
+                },
+                {
+                    "questionId": 20,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "userId": 26,
+            "topicId": 3,
+            "answers": [
+                {
+                    "questionId": 21,
+                    "answer": 0
+                },
+                {
+                    "questionId": 22,
+                    "answer": 1
+                },
+                {
+                    "questionId": 23,
+                    "answer": 2
+                },
+                {
+                    "questionId": 24,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "userId": 27,
+            "topicId": 4,
+            "answers": [
+                {
+                    "questionId": 25,
+                    "answer": 1
+                },
+                {
+                    "questionId": 26,
+                    "answer": 0
+                },
+                {
+                    "questionId": 27,
+                    "answer": 2
+                },
+                {
+                    "questionId": 28,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "userId": 28,
+            "topicId": 4,
+            "answers": [
+                {
+                    "questionId": 29,
+                    "answer": 1
+                },
+                {
+                    "questionId": 30,
+                    "answer": 0
+                },
+                {
+                    "questionId": 31,
+                    "answer": 1
+                },
+                {
+                    "questionId": 32,
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "userId": 29,
+            "topicId": 1,
+            "answers": [
+                {
+                    "questionId": 1,
+                    "answer": 0
+                },
+                {
+                    "questionId": 2,
+                    "answer": 1
+                },
+                {
+                    "questionId": 3,
+                    "answer": 2
+                },
+                {
+                    "questionId": 4,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "userId": 30,
+            "topicId": 1,
+            "answers": [
+                {
+                    "questionId": 5,
+                    "answer": 2
+                },
+                {
+                    "questionId": 6,
+                    "answer": 1
+                },
+                {
+                    "questionId": 7,
+                    "answer": 0
+                },
+                {
+                    "questionId": 8,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "userId": 31,
+            "topicId": 2,
+            "answers": [
+                {
+                    "questionId": 9,
+                    "answer": 1
+                },
+                {
+                    "questionId": 10,
+                    "answer": 0
+                },
+                {
+                    "questionId": 11,
+                    "answer": 1
+                },
+                {
+                    "questionId": 12,
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "userId": 32,
+            "topicId": 2,
+            "answers": [
+                {
+                    "questionId": 13,
+                    "answer": 0
+                },
+                {
+                    "questionId": 14,
+                    "answer": 1
+                },
+                {
+                    "questionId": 15,
+                    "answer": 2
+                },
+                {
+                    "questionId": 16,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "userId": 33,
+            "topicId": 3,
+            "answers": [
+                {
+                    "questionId": 17,
+                    "answer": 2
+                },
+                {
+                    "questionId": 18,
+                    "answer": 0
+                },
+                {
+                    "questionId": 19,
+                    "answer": 1
+                },
+                {
+                    "questionId": 20,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "userId": 34,
+            "topicId": 3,
+            "answers": [
+                {
+                    "questionId": 21,
+                    "answer": 1
+                },
+                {
+                    "questionId": 22,
+                    "answer": 0
+                },
+                {
+                    "questionId": 23,
+                    "answer": 2
+                },
+                {
+                    "questionId": 24,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "userId": 35,
+            "topicId": 4,
+            "answers": [
+                {
+                    "questionId": 25,
+                    "answer": 2
+                },
+                {
+                    "questionId": 26,
+                    "answer": 0
+                },
+                {
+                    "questionId": 27,
+                    "answer": 1
+                },
+                {
+                    "questionId": 28,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "userId": 36,
+            "topicId": 4,
+            "answers": [
+                {
+                    "questionId": 29,
+                    "answer": 1
+                },
+                {
+                    "questionId": 30,
+                    "answer": 0
+                },
+                {
+                    "questionId": 31,
+                    "answer": 2
+                },
+                {
+                    "questionId": 32,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "userId": 37,
+            "topicId": 1,
+            "answers": [
+                {
+                    "questionId": 1,
+                    "answer": 2
+                },
+                {
+                    "questionId": 2,
+                    "answer": 0
+                },
+                {
+                    "questionId": 3,
+                    "answer": 1
+                },
+                {
+                    "questionId": 4,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "userId": 38,
+            "topicId": 1,
+            "answers": [
+                {
+                    "questionId": 5,
+                    "answer": 2
+                },
+                {
+                    "questionId": 6,
+                    "answer": 1
+                },
+                {
+                    "questionId": 7,
+                    "answer": 0
+                },
+                {
+                    "questionId": 8,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "userId": 39,
+            "topicId": 2,
+            "answers": [
+                {
+                    "questionId": 9,
+                    "answer": 1
+                },
+                {
+                    "questionId": 10,
+                    "answer": 0
+                },
+                {
+                    "questionId": 11,
+                    "answer": 1
+                },
+                {
+                    "questionId": 12,
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "userId": 40,
+            "topicId": 2,
+            "answers": [
+                {
+                    "questionId": 13,
+                    "answer": 0
+                },
+                {
+                    "questionId": 14,
+                    "answer": 1
+                },
+                {
+                    "questionId": 15,
+                    "answer": 2
+                },
+                {
+                    "questionId": 16,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "userId": 41,
+            "topicId": 3,
+            "answers": [
+                {
+                    "questionId": 17,
+                    "answer": 2
+                },
+                {
+                    "questionId": 18,
+                    "answer": 0
+                },
+                {
+                    "questionId": 19,
+                    "answer": 1
+                },
+                {
+                    "questionId": 20,
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "userId": 42,
+            "topicId": 3,
+            "answers": [
+                {
+                    "questionId": 21,
+                    "answer": 0
+                },
+                {
+                    "questionId": 22,
+                    "answer": 2
+                },
+                {
+                    "questionId": 23,
+                    "answer": 1
+                },
+                {
+                    "questionId": 24,
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "userId": 43,
+            "topicId": 4,
+            "answers": [
+                {
+                    "questionId": 25,
+                    "answer": 1
+                },
+                {
+                    "questionId": 26,
+                    "answer": 0
+                },
+                {
+                    "questionId": 27,
+                    "answer": 1
+                },
+                {
+                    "questionId": 28,
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "userId": 44,
+            "topicId": 4,
+            "answers": [
+                {
+                    "questionId": 29,
+                    "answer": 1
+                },
+                {
+                    "questionId": 30,
+                    "answer": 0
+                },
+                {
+                    "questionId": 31,
+                    "answer": 1
+                },
+                {
+                    "questionId": 32,
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "userId": 45,
+            "topicId": 1,
+            "answers": [
+                {
+                    "questionId": 1,
+                    "answer": 0
+                },
+                {
+                    "questionId": 2,
+                    "answer": 1
+                },
+                {
+                    "questionId": 3,
+                    "answer": 2
+                },
+                {
+                    "questionId": 4,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "userId": 46,
+            "topicId": 1,
+            "answers": [
+                {
+                    "questionId": 5,
+                    "answer": 1
+                },
+                {
+                    "questionId": 6,
+                    "answer": 0
+                },
+                {
+                    "questionId": 7,
+                    "answer": 2
+                },
+                {
+                    "questionId": 8,
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "userId": 47,
+            "topicId": 2,
+            "answers": [
+                {
+                    "questionId": 9,
+                    "answer": 2
+                },
+                {
+                    "questionId": 10,
+                    "answer": 1
+                },
+                {
+                    "questionId": 11,
+                    "answer": 0
+                },
+                {
+                    "questionId": 12,
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "userId": 48,
+            "topicId": 2,
+            "answers": [
+                {
+                    "questionId": 13,
+                    "answer": 0
+                },
+                {
+                    "questionId": 14,
+                    "answer": 1
+                },
+                {
+                    "questionId": 15,
+                    "answer": 2
+                },
+                {
+                    "questionId": 16,
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "userId": 49,
+            "topicId": 3,
+            "answers": [
+                {
+                    "questionId": 17,
+                    "answer": 0
+                },
+                {
+                    "questionId": 18,
+                    "answer": 2
+                },
+                {
+                    "questionId": 19,
+                    "answer": 1
+                },
+                {
+                    "questionId": 20,
+                    "answer": 0
+                }
+            ]
+        }
+    ]
+}
