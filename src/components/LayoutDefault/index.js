@@ -1,22 +1,38 @@
 import { Layout } from "antd"
 import './layout.scss'
 import { Link, Outlet } from "react-router-dom"
-import ListTopic from "../ListTopic"
-import HeaderDefault from "../Header/HeaderDefault"
-import HeaderLogin from "../Header/HeaderLogin"
-import { useState } from "react"
+import { deleteAllCookie, deleteCookie, getCookie } from "../../helper/cookie"
 const {Content , Footer} = Layout
-
 function LayoutDefault(){
-    const [isLogin , setIsLogin] = useState(false)
-    const handleSetState = ()=>{
-        setIsLogin(!isLogin)
-    }
+    const token = getCookie("token")
+    console.log(token);
     return (
         <>
           <Layout className="layout">
               <header className="header">
-                {isLogin ? (<HeaderLogin/>):(<HeaderDefault />)}
+              <Link className="header__logo" to={"/"}>QUIZ</Link>
+              { token ? (
+                  <ul className="header__menu">
+                   <li className="header__menu-item">Home</li>
+                   <li className="header__menu-item">Topic</li>
+                   <li className="header__menu-item">Answers</li>
+                </ul>
+              ) : ( <></> )  }
+           
+              <div className="header__user">
+                    { token ? (<>
+                      <Link onClick={()=>{deleteAllCookie()}} className="header__user-logout" to={"/"}>Logout</Link>
+                    </>) : (<>
+                      <Link  className="header__user-reg" to={"/sign-up"}>Sign Up</Link>
+                      <Link  className="header__user-login" to={"/login"}>Login</Link>
+                    </>) }
+              
+            
+                   
+
+             
+         
+              </div>
               </header>
               <Content className="content" >
                  <Outlet/>

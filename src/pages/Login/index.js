@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom"
 import {login } from "../../helper/fetchApi";
+import { setCookie } from "../../helper/cookie";
 
 function Login(){
     const navigate = useNavigate();
@@ -10,7 +11,11 @@ function Login(){
         const password = e.target[1].value
         const res = await login(email,password);
         console.log(res);
-        if( res.length > 0 ){
+        if( res.length == 1 ){
+            setCookie("id",res[0].id, 1 )
+            setCookie("fullName",res[0].fullName, 1 )
+            setCookie("email",res[0].email, 1)
+            setCookie("token",res[0].token, 1)
             navigate("/");
         }
         else{
