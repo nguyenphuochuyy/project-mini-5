@@ -2,19 +2,21 @@ import { Layout } from "antd"
 import './layout.scss'
 import { Link, Outlet } from "react-router-dom"
 import ListTopic from "../ListTopic"
+import HeaderDefault from "../Header/HeaderDefault"
+import HeaderLogin from "../Header/HeaderLogin"
+import { useState } from "react"
 const {Content , Footer} = Layout
 
 function LayoutDefault(){
+    const [isLogin , setIsLogin] = useState(false)
+    const handleSetState = ()=>{
+        setIsLogin(!isLogin)
+    }
     return (
         <>
           <Layout className="layout">
               <header className="header">
-                    <Link className="header__logo" to={"/"}>QUIZ</Link>
-                        <ListTopic/>
-                 <div className="header__user">
-                    <Link  className="header__user-reg" to={"/sign-up"}>Sign Up</Link>
-                    <div className="header__user-login">Login</div>
-                 </div>
+                {isLogin ? (<HeaderLogin/>):(<HeaderDefault />)}
               </header>
               <Content className="content" >
                  <Outlet/>

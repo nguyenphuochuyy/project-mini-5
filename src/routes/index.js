@@ -1,6 +1,7 @@
 
 import LayoutDefault from "../components/LayoutDefault";
 import Home from "../pages/Home";
+import Login from "../pages/Login";
 import Register from "../pages/Register";
 
 export const Routes = [
@@ -15,6 +16,10 @@ export const Routes = [
             {
                 path : "/sign-up",
                 element : <Register/>
+            },
+            {
+                path : "/login",
+                element : <Login/>
             }
         ]
     }

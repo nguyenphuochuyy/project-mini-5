@@ -69,7 +69,14 @@
             "email": "nguyenthij@example.com",
             "password": "password890",
             "token": "YzAbCdEfGhIjKlMnOpQr"
-        }
+        },
+        {
+            "id" : 11,
+            "fullName" : "Huy Nguyen",
+            "email" : "admin",
+            "password" : "admin",
+            "token" : "ueyrhdgftdgetfgdtsfw"
+         }
     ],
     "topics":[
         {
