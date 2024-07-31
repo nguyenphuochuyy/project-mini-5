@@ -2,11 +2,18 @@ import { Layout } from "antd"
 import './layout.scss'
 import { Link, Outlet } from "react-router-dom"
 import { deleteAllCookie, deleteCookie, getCookie } from "../../helper/cookie"
-import { useSelector } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
+import { LogOut } from "../../actions"
 const {Content , Footer} = Layout
 function LayoutDefault(){
     const token = getCookie("token")
     const isLogin = useSelector(state=>state.LoginReducer);
+    const dispatch = useDispatch();
+    const handleClick = ()=>{
+      deleteAllCookie() 
+      navigator("/");
+      dispatch(LogOut(false))
+    }
     return (
         <>
           <Layout className="layout">
@@ -22,7 +29,7 @@ function LayoutDefault(){
            
               <div className="header__user">
                     { token ? (<>
-                      <Link onClick={()=>{deleteAllCookie()}} className="header__user-logout" to={"/"}>Logout</Link>
+                      <Link onClick={handleClick}  className="header__user-logout" to={"/"}>Logout</Link>
                     </>) : (<>
                       <Link  className="header__user-reg" to={"/sign-up"}>Sign Up</Link>
                       <Link  className="header__user-login" to={"/login"}>Login</Link>

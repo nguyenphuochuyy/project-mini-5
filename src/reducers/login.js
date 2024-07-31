@@ -4,6 +4,9 @@ const LoginReducer = (state = false , action)=>{
             case "CHECK_LOGIN":{
                 return  action.status
             }
+            case "LOGOUT":{
+                return action.status
+            }
             default: return state
         }
 }

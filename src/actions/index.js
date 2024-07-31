@@ -4,3 +4,9 @@ export const  isLogin = (status)=>(
         status : status
     }
 )
+export const LogOut = (status)=>(
+    {
+        type : 'LOGOUT',
+        status : status
+    }
+)
