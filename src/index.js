@@ -4,12 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-
+import { createStore } from 'redux';
+import AllReducers from './reducers';
+import { Provider } from 'react-redux';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const store = createStore(AllReducers)
 root.render(
-    <BrowserRouter>
+    <Provider store = {store}>
+        <BrowserRouter>
         <App />
-    </BrowserRouter>
+        </BrowserRouter> 
+    </Provider>
+  
   
 );
 

@@ -27,7 +27,7 @@
         align-items: center;
         text-decoration: none;
         list-style-type: none;
-
+        margin-right: 150px;
     }
 
     &__menu-item{
@@ -40,6 +40,12 @@
         width: 80px;
         height: auto;
         background-color: darkcyan;
+        cursor: pointer;
+    }
+    &__menu-item:hover{
+        transition: all 0.3s ease-out;
+        background-color: blueviolet;
+        color: #ddd;
     }
     &__user{
         display: flex;
@@ -80,6 +86,16 @@
         background-color: rgb(45, 45, 237);
         color: #fff;
     }
+    &__user-logout{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: rgb(45, 45, 237);
+        color: #fff;
+    }
   
 }
 .footer{
@@ -96,4 +112,5 @@
     bottom: 0;
 }
 .content{
+    
 }
