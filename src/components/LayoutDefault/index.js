@@ -1,7 +1,8 @@
 import { Layout } from "antd"
 import './layout.scss'
+import navigator from "react"
 import { Link, Outlet } from "react-router-dom"
-import { deleteAllCookie, deleteCookie, getCookie } from "../../helper/cookie"
+import { deleteAllCookie, getCookie } from "../../helper/cookie"
 import { useDispatch, useSelector } from "react-redux"
 import { LogOut } from "../../actions"
 const {Content , Footer} = Layout
@@ -21,9 +22,9 @@ function LayoutDefault(){
               <Link className="header__logo" to={"/"}>QUIZ</Link>
               { token ? (
                   <ul className="header__menu">
-                   <li className="header__menu-item">Home</li>
-                   <li className="header__menu-item">Topic</li>
-                   <li className="header__menu-item">Answers</li>
+                   <li ><Link to={"/"} className="header__menu-item">Home</Link></li>
+                   <li ><Link to={"/topic"} className="header__menu-item">Topic</Link></li>
+                   <li ><Link to={"/"} className="header__menu-item">Answers</Link></li>
                 </ul>
               ) : ( <></> )  }
            

@@ -31,6 +31,7 @@
     }
 
     &__menu-item{
+        color: #fff;
         padding: 10px;
         font-size: 18px;
         display: flex;
@@ -39,13 +40,13 @@
         border-radius: 10px;
         width: 80px;
         height: auto;
-        background-color: darkcyan;
+        background-color: green;
         cursor: pointer;
     }
     &__menu-item:hover{
         transition: all 0.3s ease-out;
         background-color: blueviolet;
-        color: #ddd;
+        color: #fff;
     }
     &__user{
         display: flex;

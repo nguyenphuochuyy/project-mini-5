@@ -13,7 +13,6 @@ function Login(){
         const email = e.target[0].value
         const password = e.target[1].value
         const res = await login(email,password);
-        console.log(res);
         if( res.length === 1 ){
             // set thông tin người dùng vào cookie
             setCookie("id",res[0].id, 1 )

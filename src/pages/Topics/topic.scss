@@ -1,0 +1,21 @@
+.topic{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    &__item{
+        width: 50%;
+        justify-content: space-between;
+        display: flex;
+        padding: 20px;
+        border: 1px solid #d6d0d0;
+    }
+    &__item-topic{
+        margin-left: 50px;
+    }
+    &__item-btn{
+        text-transform: uppercase;
+        font-weight: 500;
+        padding: 20px;
+        background-color: orange;
+    }
+}
