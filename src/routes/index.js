@@ -28,7 +28,7 @@ export const Routes = [
                 element : <Topic/>
             },
             {
-                path : "/practice",
+                path : "/practice/:name",
                 element : <Practice/>
             }
         ]

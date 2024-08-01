@@ -13,8 +13,9 @@ function Topic(){
     }
     fetchTopic();
   },[])
-  const handleClick = ()=>{
-    navigator("/practice");
+  const handleClick = (name) => {
+    // chuyển hướng sang trang có params = name
+    navigator(`/practice/${name}`);
   }
     return (
         <>  
@@ -23,7 +24,7 @@ function Topic(){
                <div className="topic__item" key={item.id}>
                   <p className="topic__item-stt">{item.id}</p>
                   <div className="topic__item-topic"> {item.name} </div>
-                  <Button className="topic__item-btn" onClick={handleClick}>Luyện tập</Button>
+                  <Button className="topic__item-btn" onClick={()=> handleClick(item.name)}>Luyện tập</Button>
                </div>  
             ))}
            

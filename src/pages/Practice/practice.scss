@@ -1,0 +1,29 @@
+.practice{
+    padding: 20px;
+    &__head{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    &__question{
+        font-size: 20px;
+        font-weight: 500;
+    
+    }
+    &__body{
+        margin-top: 5px;
+        font-size: 18px;
+        font-weight: 450;
+    }
+    &__item{
+        margin-top: 50px;
+    }
+    &__btn{
+        padding: 15px 30px;
+        margin-top: 40px;
+        margin-left: 50%;
+        text-transform: uppercase;
+        font-weight: 500;
+        transition: all 0.5s;
+    }
+ 
+}

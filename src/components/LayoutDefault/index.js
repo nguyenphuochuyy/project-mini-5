@@ -19,7 +19,7 @@ function LayoutDefault(){
         <>
           <Layout className="layout">
               <header className="header">
-              <Link className="header__logo" to={"/"}>QUIZ</Link>
+              <Link className="header__logo" to={"/"}>PROCODE</Link>
               { token ? (
                   <ul className="header__menu">
                    <li ><Link to={"/"} className="header__menu-item">Home</Link></li>

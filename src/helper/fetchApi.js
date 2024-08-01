@@ -8,3 +8,8 @@ export const getTopic = async ()=>{
     const result = await res.json();
     return result;
 }
+export const getQuestion = async (topic)=>{
+    const res = await fetch(`http://localhost:3000/questions?name=${topic}`);
+    const result = await res.json();
+    return result;
+}
