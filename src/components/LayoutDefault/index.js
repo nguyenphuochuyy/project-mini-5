@@ -24,10 +24,9 @@ function LayoutDefault(){
                   <ul className="header__menu">
                    <li ><Link to={"/"} className="header__menu-item">Home</Link></li>
                    <li ><Link to={"/topic"} className="header__menu-item">Topic</Link></li>
-                   <li ><Link to={"/"} className="header__menu-item">Answers</Link></li>
+                   <li ><Link to={"/answer"} className="header__menu-item">Answers</Link></li>
                 </ul>
-              ) : ( <></> )  }
-           
+              ) : ( <></> ) }
               <div className="header__user">
                     { token ? (<>
                       <Link onClick={handleClick}  className="header__user-logout" to={"/"}>Logout</Link>

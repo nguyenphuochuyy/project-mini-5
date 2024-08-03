@@ -1,5 +1,6 @@
 
 import LayoutDefault from "../components/LayoutDefault";
+import Answer from "../pages/Answer";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Practice from "../pages/Practice";
@@ -25,11 +26,15 @@ export const Routes = [
             },
             {
                 path : "/topic",
-                element : <Topic/>
+                element : <Topic />
             },
             {
                 path : "/practice/:name",
                 element : <Practice/>
+            },
+            {
+                path : "/answer",
+                element : <Answer/>
             }
         ]
     }
