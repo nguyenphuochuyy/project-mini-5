@@ -2,11 +2,11 @@ import { Button, Radio, Space } from "antd";
 import "./practice.scss"
 import { useEffect, useState } from "react";
 import { getQuestion, postAnswer} from "../../helper/fetchApi";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { getCookie } from "../../helper/cookie";
 function Practice(){
+    const navigator = useNavigate();
     const [topic , setTopic]  = useState()
-    const [dataAnswer , setDataAnswer] = useState([])
     const { name } = useParams();
     const [dataQuestion , setDataQuestion] = useState([]);
     useEffect(()=>{
@@ -17,12 +17,8 @@ function Practice(){
         }
         getQues();
     },[name ])
-    const post = async (option)=>{
-        const result = await postAnswer(option)
-        return result;
-    }
+
     //handle Submit event
-    
     const handleSubmit = async (e)=>{
         e.preventDefault();
         const Answers = [];
@@ -43,15 +39,12 @@ function Practice(){
             answer : Answers
         }    
         const res = await postAnswer(options);
-        console.log(res);
+        navigator(`/result/${res.id}`)
        
     }  
    
     // post data to sv
    
-
-  
-    
     return (
         <>
             <div className="practice">

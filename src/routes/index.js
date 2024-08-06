@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Practice from "../pages/Practice";
 import Register from "../pages/Register";
+import Result from "../pages/Result";
 import Topic from "../pages/Topics";
 
 export const Routes = [
@@ -35,6 +36,10 @@ export const Routes = [
             {
                 path : "/answer",
                 element : <Answer/>
+            },
+            {
+                path : "/result/:id",
+                element : <Result/>
             }
         ]
     }

@@ -18,6 +18,11 @@ export const getQuestion = async (topic)=>{
     const result = await res.json();
     return result;
 }
+export const getQuestionById = async (id)=>{
+    const res = await fetch(`http://localhost:3000/questions?id=${id}`);
+    const result = await res.json();
+    return result;
+}
 export const postAnswer = async (option)=>{
     const res = await fetch("http://localhost:3000/answers",{
         method : 'POST',
@@ -27,5 +32,10 @@ export const postAnswer = async (option)=>{
         body : JSON.stringify(option),
     });
     const result = await res.json();
+    return result;
+}
+export const getAnswerById = async (id)=>{
+    const res = await fetch(`http://localhost:3000/answers?id=${id}`)
+    const result = await res.json()
     return result;
 }
