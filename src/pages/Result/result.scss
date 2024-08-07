@@ -1,0 +1,29 @@
+.result{
+    padding: 20px;
+    &__item{
+        font-size: 20px;
+        &--true{
+            color: green;
+            padding: 2px 20px;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+        &--false{
+            width: 20px;
+            color: red;
+            padding: 2px 20px;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+        &--selected{
+            color: red;
+        }
+        &--correct{
+            color: green;
+            font-weight: 500;
+        }
+    }
+    &__body{
+        font-size: 18px;
+    }
+}
