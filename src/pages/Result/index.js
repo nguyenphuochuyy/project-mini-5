@@ -14,7 +14,6 @@ function Result(){
             const userAnswer = await getAnswerById(params.id);
             const lisQues = await getQuestionById(userAnswer[0].topicId);
             let finallResult = [];
-            let count = 0;
             // lặp qua 20 câu hỏi của danh sách câu hỏi và push vào mảng mới ds 20 câu hỏi
             for(let i = 0 ;i < lisQues[0].questions.length ;i++){
                 finallResult.push({
@@ -22,22 +21,21 @@ function Result(){
                     ...userAnswer[0].answer.find(item=> item.questionId === lisQues[0].questions[i].id)
                 })
             }
-           setFinalResult(finallResult);            
+           setFinalResult(finallResult);     
+           let count = 0 ;
+           for(let i = 0 ; i < finallResult.length ; i++){
+               if(finallResult[i].answer === finallResult[i].correctAnswer){
+                   count++
+               }            
+           }
+           setCorrectAns(count)       
         }
         fetchApi();
-        let count = 0 ;
-        console.log(finallResult);
-        for(let i = 0 ; i < finallResult.length ; i++){
-            if(finallResult[i].answer === finallResult[i].correctAnswer){
-                count++
-            }            
-        }
-        setCorrectAns(count)
-    },[])    
+     
    
+    },[])    
+  
 
-    
-    
     return(
         <>
             <div className="result">
