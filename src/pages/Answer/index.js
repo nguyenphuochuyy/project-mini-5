@@ -7,7 +7,7 @@ function Answer(){
     const [dataAnswer , setDataAnswer] = useState([]);
     useEffect(()=>{
         const uId = getCookie('id')
-        const fetchApi = async ()=>{
+        const fetchApi = async () => {
             const listAns = await getAnswerByUId(uId);
             await enrichDataWithTopicNames(listAns)
             setDataAnswer(listAns.reverse())
@@ -15,11 +15,13 @@ function Answer(){
         async function enrichDataWithTopicNames(data) {
             for (const item of data) {
                 const topicName = await getTopicById(item.topicId);
-                item.topicName = topicName[0].name || 'Unknown Topic'; // Gán topicName cho từng đối tượng trong mảng
+                console.log(topicName);
+                
+                item.topicName = topicName[0]?.name || 'Unknown Topic'; // Gán topicName cho từng đối tượng trong mảng
             }
             return data;
         }
-   
+        
         fetchApi(); 
     } , [])
 
