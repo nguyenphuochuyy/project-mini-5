@@ -31,11 +31,14 @@ function Result(){
            setCorrectAns(count)       
         }
         fetchApi();
-     
+        console.log(finallResult);
+        
    
     },[])    
   
+    const handleClick = ()=>{
 
+    }
     return(
         <>
             <div className="result">
@@ -77,7 +80,7 @@ function Result(){
                 </div>
                 
             )) }
-            {/* <Button className="practice__btn"  htmlType="submit">Làm lại</Button> */}
+            <Button className="practice__btn"  htmlType="submit" onClick={handleClick}>Làm lại</Button>
             
             </form>
             

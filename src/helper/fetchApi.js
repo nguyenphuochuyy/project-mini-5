@@ -13,6 +13,11 @@ export const getTopicByName = async (name) =>{
     const result = await res.json();
     return result;
 }
+export const getTopicById = async (topicId) =>{
+    const res = await fetch(`http://localhost:3000/topics?id=${topicId}`)
+    const result = await res.json();
+    return result;
+}
 export const getQuestion = async (topic)=>{
     const res = await fetch(`http://localhost:3000/questions?name=${topic}`);
     const result = await res.json();
@@ -36,6 +41,11 @@ export const postAnswer = async (option)=>{
 }
 export const getAnswerById = async (id)=>{
     const res = await fetch(`http://localhost:3000/answers?id=${id}`)
+    const result = await res.json()
+    return result;
+}
+export const getAnswerByUId = async (uId) =>{
+    const res  = await fetch(`http://localhost:3000/answers?userId=${uId}`)
     const result = await res.json()
     return result;
 }
